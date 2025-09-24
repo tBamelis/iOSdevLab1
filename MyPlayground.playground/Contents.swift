@@ -14,7 +14,15 @@ print(tuple.voornaam)
 print(tuple.naam)
 
 
-var reversedString: String? = NILL;
+var reversedString: String? = nil;
+if(reversedString == nil)
+{
+    print("no result")
+}
+else
+{
+    print(reversedString);
+}
 
 
 
